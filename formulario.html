@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+         <h1>Formulários HTML</h1>
+         <hr>
+
+        <form action="  " method="get">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Informe seu nome" required>  
+            </div>
+                   <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha">
+                   </div>
+
+                   <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                   </div>
+
+                   <div>
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" name="data" id="data">
+                   </div>
+
+                   <div>
+                    <label for="hora">Hora:</label>
+                    <input type="time" name="hora" id="hora">
+                   </div>
+
+                   <div>
+                    <label for="num">Número:</label>
+                    <input type="number" name="num" id="num">
+                   </div>
+
+                  
+                    
+                    <textarea name="caixa" id="caixa" cols="30" rows="10"></textarea>
+                    <br>
+
+                    
+                    <div>
+                     <select name="select" id="select">
+                        <option value="receita">Receita</option>
+                        <option value="despesa">Despesa</option>
+                        <option value="transferencia">Transferência</option>
+                     </select>
+                    </div>
+
+                   <div>
+                    <label for="botao"></label>
+                    <input type="submit" name="botao" id="botao" value="Enviar">
+                   </div>
+        </form>
+    </main>
+</body>
+</html>
